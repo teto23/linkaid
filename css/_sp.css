@@ -1,0 +1,325 @@
+/* 小型デバイス(タブレット、1366px 以下) */
+@media (max-width: 1366px) {
+
+    .guide_line {
+        width: 7.321vw;
+    }
+
+    .top_area {
+        margin-left: 7.321vw;
+    }
+
+    .top_detail_area {
+    	padding-left: 7.321vw;
+    	margin-bottom: 24.305vw;
+    }
+
+    footer {
+        margin-left: 7.321vw;
+    	padding: 3.807vw 0 2.196vw;
+    }
+
+    .scroll {
+        padding-bottom: 3.953vw;
+    	font-size: 1.025vw;
+        letter-spacing: 0.073vw;
+    }
+
+    .scroll:after {
+        left: 0.586vw;
+        height: 0.586vw;
+    }
+
+    .scroll:before {
+        left: 0.439vw;
+        height: 2.928vw;
+    }
+
+    .menu_btn {
+        top: 2.196vw;
+    	left: 1.464vw;
+        width: 3.66vw;
+    	padding-bottom: 1.903vw;
+    }
+
+    .menu_btn:before {
+        top: 0.878vw;
+        width: 2.562vw;
+    }
+
+    .menu_btn:after {
+        top: 1.757vw;
+        width: 1.83vw;
+    }
+
+    .menu_btn:hover {
+        width: 2.562vw;
+    }
+
+    .menu_btn:hover:before {
+        width: 3.66vw;
+    }
+
+    .menu_btn:hover:after {
+        width: 2.562vw;
+    }
+
+    .top_link {
+        width: 9.37vw;
+        top: 1.757vw;
+        left: 2.196vw;
+    }
+
+    .lang_item {
+        top: 2.343vw;
+        right: 2.05vw;
+    }
+
+    .lang_link {
+        font-size: 1.025vw;
+    }
+
+    .lang_link:nth-child(n+2) {
+        margin-left: 1.171vw;
+    }
+
+    .top_title_1 {
+        font-size: 3.514vw;
+        margin-bottom: 1.025vw;
+    }
+
+    .top_detail_text {
+        font-size: 1.245vw;
+        margin-bottom: 0.439vw;
+    }
+
+    .top_title_2 {
+        font-size: 3.514vw;
+    }
+
+    .news_day {
+        font-size: 1.025vw;
+        padding: 1.464vw 2.928vw 1.464vw 2.196vw;
+    }
+
+    .news_title {
+        padding: 1.464vw 3.66vw 1.464vw 2.196vw;
+    }
+
+    .about_us {
+        padding: 7.321vw 0 18.302vw;
+    }
+
+    .about_back_title {
+        top: 17.277vw;
+        left: 8.785vw;
+        height: 21.596vw;
+    }
+
+    .top_detail_title {
+        font-size: 1.025vw;
+        padding: 0.293vw 0.732vw;
+    	margin-bottom: 9.517vw;
+    }
+
+    .detail_center {
+    	width: 74.963vw;
+    }
+
+    .top_detail_h2 {
+        font-size: 1.903vw;
+        margin-bottom: 1.464vw;
+    	letter-spacing: 0.146vw;
+    }
+
+    .about_detail {
+        font-size: 1.025vw;
+        margin-bottom: 3.66vw;
+    }
+
+    .detail_link {
+        width: 16.105vw;
+        padding: 1.025vw 0;
+        font-size: 1.025vw;
+    }
+
+    .detail_link:before {
+        left: -0.073vw;
+    }
+
+    .detail_link span {
+    	width: 12.152vw;
+    }
+
+    .detail_link span:before {
+        width: 1.757vw;
+        top: 0.586vw;
+    }
+
+    .detail_link span:after {
+        width: 0.439vw;
+        top: 0.439vw;
+    }
+
+    .service {
+        padding: 7.321vw 0 14.641vw;
+    	margin-bottom: 9.663vw;
+    }
+
+    .service .top_detail_title, .column .top_detail_title {
+        margin-bottom: 5.124vw;
+    }
+
+    .service:before {
+        border-top: 65.886vw solid #FFFFFF;
+        border-left: 93.704vw solid transparent;
+    }
+
+    .service:after {
+        border-bottom: 65.886vw solid #FFFFFF;
+        border-right: 93.704vw solid transparent;
+    }
+
+    .service_detail {
+        width: 74.963vw;
+    }
+
+    .service_fbox {
+        width: 74.963vw;
+    }
+
+    .service_detail_item {
+        width: 32.796vw;
+    }
+
+    .sd_text_area {
+        width: 38.507vw;
+    }
+
+    .service_fbox:nth-child(n+4) {
+        margin-top: 7.321vw;
+    }
+
+    .serice_h3 {
+        font-size: 1.464vw;
+        top: 8.053vw;
+    }
+
+    .serice_h3 span {
+        font-size: 1.025vw;
+    }
+
+    .service_detail_text {
+        font-size: 1.025vw;
+        margin-bottom: 3.66vw;
+    }
+
+    .service_detail_link {
+        font-size: 1.025vw;
+        padding-right: 2.489vw;
+    }
+
+    .service_detail_link:before {
+        width: 1.611vw;
+        bottom: 0.439vw;
+    }
+
+    .service_detail_link:after {
+        width: 0.439vw;
+        bottom: 0.586vw;
+    }
+
+    .column_fbox {
+    	padding-bottom: 6.589vw;
+    }
+
+    .column_detail {
+        width: 74.963vw;
+    }
+
+
+    .column_detail_text {
+        font-size: 1.025vw;
+    }
+
+    .column_back {
+        height: 18.302vw;
+        bottom: 4.246vw;
+    }
+
+    .column_link {
+        width: 17.13vw;
+        margin-right: 2.196vw;
+    }
+
+    .column_img {
+        margin-bottom: 0.732vw;
+    }
+
+    .column_cate {
+        margin-bottom: 0.732vw;
+        padding: 0.439vw 0.732vw;
+        font-size: 0.878vw;
+    }
+
+    .pager_flex {
+        height: 0.586vw;
+        width: 16.398vw;
+    }
+
+    .dot {
+        width: 0.586vw;
+    }
+
+    .column_fbox_btn {
+        width: 1.318vw;
+        height: 1.318vw;
+        top: 12.738vw;
+        left: -3.66vw;
+    }
+
+    .column_fbox_btn.right_cbtn {
+        top: 12.738vw;
+        right: -3.66vw;
+        left: auto;
+    }
+
+    .footer_fbox {
+        width: 85.359vw;
+        margin-bottom: 7.321vw;
+    }
+
+    .footer_fitem {
+        width: 40.776vw;
+        padding: 3.6vw;
+    }
+
+    .footer_h3 {
+        font-size: 1.464vw;
+        margin-bottom: 3.66vw;
+    }
+
+    .footer_fitem_text {
+        font-size: 1.025vw;
+        margin-bottom: 4.1vw;
+    }
+
+    .footer_link {
+        width: 11.933vw;
+        margin-bottom: 3.66vw;
+    }
+
+    .copy {
+        font-size: 0.878vw;
+    }
+
+    .service_detail_link:hover {
+        padding-right: 3.66vw;
+    }
+
+
+    .news_title span {
+        font-size: 1.025vw;
+    }
+
+}
