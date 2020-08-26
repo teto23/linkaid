@@ -404,6 +404,7 @@
 
 
     .top_title_box {
+        width:60vw;
         padding-bottom: 4.392vw;
     }
 
@@ -421,6 +422,19 @@
         display: none;
     }
 
+.opener {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  z-index: 4;
+  background-color:#FFF;
+
+}
     .opener:before {
         content: none;
     }
@@ -554,7 +568,7 @@
     }
 
     .about_us {
-        padding: 13.333vw 0 26.667vw;
+        padding: 26.667vw 0 26.667vw;
     }
 
     .detail_center,.column_detail,.service_detail {
@@ -668,8 +682,8 @@
     }
 
     .column_fbox_btn {
-        width: 6.4vw;
-        height: 6.4vw;
+        width: 4vw;
+        height: 4vw;
     }
 
     .column_fbox_btn.right_cbtn {

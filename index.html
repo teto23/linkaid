@@ -13,20 +13,22 @@
     h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
   })(document);
 </script>
+<link rel="icon" href="img/favicon.ico">
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="css/sp.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600|Noto+Sans+JP:400,500,700,900&amp;display=swap" rel="stylesheet">
 
 <title>LINKAID</title>
 </head>
 <body>
 	<div class="opener a1">
-		<img src="img/title_b.svg" alt="" class="opener_logo">
-		<img src="img/title_w.svg" alt="" class="opener_logo_sp">
+		<img src="img/title_w.svg" alt="" class="opener_logo">
+		<img src="img/title_b.svg" alt="" class="opener_logo_sp">
 	</div>
 	<main class="top_main">
 		<div class="guide_line pc">
-			<span class="menu_btn"></span>
+			<p class="menu_box"><span class="menu_btn"></span></p>
             <div class="top_side_bar">
                 <span class="ts_close_btn"></span>
                 <div class="ts_bar_item">
@@ -53,7 +55,7 @@
 			<span class="scroll">SCROLL DOWN</span>
 		</div>
 		<div class="top_area">
-			<video src="img/preview.mp4" loop autoplay muted class="top_back_video"></video>
+			<video src="img/home_2.mp4" loop autoplay muted class="top_back_video"></video>
 			<a href="#" class="top_link pc"><img src="img/title_w.svg" alt=""></a>
             <div class="manu_box sp">
                 <span class="menu_btn sp sp_o"></span>
@@ -82,14 +84,17 @@
                 </div>
             </div>
 			<div class="lang_item sp_o">
-				<a href="#" class="lang_link click">日本語</a>
-				<a href="#" class="lang_link">ENGLISH</a>
+				<a href="#" class="lang_link">日本語</a>
+				<a href="index_eng.html" class="lang_link click">ENGLISH</a>
 			</div>
 			<div class="top_title_box sp_o">
-				<div class="top_title_1">Implement</div>
-				<div class="top_detail_text">
-                    明日を問い「続ける」事は<br class="sp">一度切の機会ではない
-					<br>思考と改革を継続して<br class="sp">暗黙知（”Tacit knowledge”）の<br class="sp">可視化へ
+				<!--<div class="top_title_1">TOMMOROW</div>-->
+				<div class="draw -wave top_title_1">KEEP CAHALLENGING.</div>
+				<div class="draw -wave -small top_detail_text" delay="2.5">
+					明日を問い「続ける」事は一度切の機会ではない
+				</div>
+				<div class="draw -wave -small top_detail_text" delay="2.5">
+					思考と改革を継続して暗黙知（"Tacit knowledge"）の可視化へ
 				</div>
 			</div>
 			<a href="#" class="news_box pc">
@@ -103,8 +108,8 @@
         </a>
 		<div class="top_detail_area">
 			<div class="lang_item scroll_lang">
-				<a href="#" class="lang_link click">日本語</a>
-				<a href="#" class="lang_link">ENGLISH</a>
+				<a href="#" class="lang_link click">JP</a>
+				<a href="index_eng.html" class="lang_link">EN</a>
 			</div>
 			<div class="about_us">
 				<img src="img/title_big.svg" alt="" class="about_back_title">
@@ -112,22 +117,23 @@
 					<div class="top_detail_title"><span>ABOUT US</span></div>
 					<h2 class="top_detail_h2 ani_off">私たちについて</h2>
 					<div class="about_detail ani_off">
-						美しいアプリ。美しいシステム。
-						<br>これらは、テクノロジーの姿をした<br class="sp">アートだと考えます。
-						<br>私たちは、障害となるバイアスを取り除き<br class="sp">幅広いデジタル領域の
-						<br class="pc">デザインという<br class="sp">テクノロジーでクライアントの思いを形にする会社です。
+						「<span style="font-weight:bold">美しいアプリ</span>」「<span style="font-weight:bold">美しいシステム</span>」<br>これらは、テクノロジーの姿をしたアートだと考えます<br>私たちは、障害となるバイアスを取り除き幅広いデジタル領域において<br>ITでクライアントの思いを形にする会社です。
 					</div>
 					<a href="#" class="detail_link ani_off"><span>ABOUT US</span></a>
 				</div>
 			</div>
+
+
 			<div class="service">
 				<div class="service_detail">
 					<div class="top_detail_title"><span>SERVICE</span></div>
 					<h2 class="top_detail_h2 ani_off">事業内容</h2>
 					<a href="#" class="service_fbox sf_box1 ani_off">
-						<div class="service_detail_item">
-							<div class="service_img"  style="background-image: url('img/service_1.png');"></div>
-							<h3 class="serice_h3">デジタルコンサルティング<span>Digital Consulting</span></h3>
+						<div class="service_detail_item grad1">
+							<div class="service_img"  style="background-image: url('img/service_1.jpg');"></div>
+                                                        <!--<div class="blend-box bg-sky blend-darken "></div>-->
+							<div class="blend-box bg-indigo-light blend-multiply"></div>							
+							<h3 class="serice_h3">デジタルコンサルティング事業<span>Digital Consulting</span></h3>
 						</div>
 						<div class="sd_text_area pc">
 							<div class="service_detail_text">
@@ -144,11 +150,30 @@
 							</div>
 							<div class="service_detail_link">READ MORE</div>
 						</div>
-						<div class="service_detail_item">
-							<div class="service_img"  style="background-image: url('img/service_2.png');"></div>
-							<h3 class="serice_h3">クリエイティブテクノロジー<span>Creative & Technology</span></h3>
+						<div class="service_detail_item grad2">
+						       <div class="service_img"  style="background-image: url('img/service_2.jpg');"></div>
+                                                       <!--<div class="blend-box  bg-green-lighter blend-multiply "></div>-->
+                                                       <div class="blend-box bg-red-lightest blend-multiply"></div>
+						       
+	<h3 class="serice_h3">システム・サービス事業<span>System & Apps</span></h3>
 						</div>
 					</a>
+					<!--<a href="#" class="service_fbox sf_box1 ani_off">
+						<div class="service_detail_item grad1">
+							<div class="service_img"  style="background-image: url('img/service_3.jpg');"></div>
+                                                        <!--<div class="blend-box bg-yellow blend-darken "></div>
+							<div class="blend-box bg-sky blend-multiply"></div>
+							<div class="blend-box  bg-green-lighter blend-multiply "></div>
+							
+							<h3 class="serice_h3">マネジメントサービス<span>Digital Consulting</span></h3>
+						</div>
+						<div class="sd_text_area">
+							<div class="service_detail_text">
+								デジタル領域における的確なUXを考察したり、技術志向でウェブサイトをはじめ、アプリのUIブラシュアップを行いアプリアウトプットのクオリティのスケールを実現します。
+							</div>
+							<div class="service_detail_link">READ MORE</div>
+						</div>
+					</a>-->
 				</div>
 			</div>
 			<div class="column">
@@ -167,7 +192,6 @@
 									<div class="column_detail_text">
 										見出しが入ります。見出しが入ります。見出しが入ります。見出しが入ります。見出しが入ります。…
 									</div>
-        							<div class="detail_link sp"><span>READ MORE</span></div>
 								</a>
 								<a href="#" class="column_link" data-num="1">
 									<div class="column_img_lock">
@@ -177,7 +201,6 @@
 									<div class="column_detail_text">
 										見出しが入ります。見出しが入ります。見出しが入ります。見出しが入ります。見出しが入ります。…
 									</div>
-        							<div class="detail_link sp"><span>READ MORE</span></div>
 								</a>
 								<a href="#" class="column_link" data-num="2">
 									<div class="column_img_lock">
@@ -187,7 +210,6 @@
 									<div class="column_detail_text">
 										見出しが入ります。見出しが入ります。見出しが入ります。見出しが入ります。見出しが入ります。…
 									</div>
-        							<div class="detail_link sp"><span>READ MORE</span></div>
 								</a>
 								<a href="#" class="column_link" data-num="3">
 									<div class="column_img_lock">
@@ -197,7 +219,6 @@
 									<div class="column_detail_text">
 										見出しが入ります。見出しが入ります。見出しが入ります。見出しが入ります。見出しが入ります。…
 									</div>
-        							<div class="detail_link sp"><span>READ MORE</span></div>
 								</a>
 								<a href="#" class="column_link" data-num="4">
 									<div class="column_img_lock">
@@ -207,7 +228,6 @@
 									<div class="column_detail_text">
 										見出しが入ります。見出しが入ります。見出しが入ります。見出しが入ります。見出しが入ります。…
 									</div>
-        							<div class="detail_link sp"><span>READ MORE</span></div>
 								</a>
 								<a href="#" class="column_link" data-num="5">
 									<div class="column_img_lock">
@@ -217,7 +237,6 @@
 									<div class="column_detail_text">
 										見出しが入ります。見出しが入ります。見出しが入ります。見出しが入ります。見出しが入ります。…
 									</div>
-        							<div class="detail_link sp"><span>READ MORE</span></div>
 								</a>
 							</div>
 						</div>
@@ -246,7 +265,7 @@
 				</div>
 				<a href="#" class="detail_link"><span>CONTACT</span></a>
 			</div>
-			<div class="footer_fitem ani_off">
+			<div class="footer_fitem ani_off pc">
 				<h3 class="footer_h3">RECRUIT</h3>
 				<div class="footer_fitem_text">
 					LINKAIDは、デジタルテクノロジーを
@@ -255,7 +274,8 @@
 				<a href="#" class="detail_link"><span>READ MORE</span></a>
 			</div>
 		</div>
-		<div class="copy">©LINK AID,Inc.</div>
+		<!--<a href="#" class="footer_link"><img src="img/title_b.svg" alt=""></a>-->
+		<div class="copy">©2020 LINKAID,Inc.</div>
 	</footer>
 </body>
 	<script src="js/jquery-3.3.1.min.js"></script>
