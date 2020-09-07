@@ -25,6 +25,12 @@ html, body {
     100% {opacity: 1}
 }
 
+body.open {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+
 body .draw {
   position: relative;
   color: transparent;
