@@ -197,15 +197,14 @@ $(function() {
 		}else{
 			$('.menu_btn.sp').removeClass('b');
 		}
-		console.log($(window).scrollTop());
 		var nh = $(window).scrollTop()+$(window).height();
-		if(nh>$('.about_us').offset().top+200){
+		if($('.about_us').length&&nh>$('.about_us').offset().top+200){
 			$('.about_us .top_detail_title').addClass('show');
 			if(nh>$('.about_us').offset().top+500){
 				$('.about_us .detail_center').find('.ani_off').addClass('ani_on');
 			}
 		}
-		if(nh>$('.service_detail').offset().top+200){
+		if($('.service_detail').length&&nh>$('.service_detail').offset().top+200){
 			$('.service_detail .top_detail_title').addClass('show');
 			if(nh>$('.service_detail').offset().top+400){
 				$('.service_detail .top_detail_h2').addClass('ani_on');
@@ -217,7 +216,7 @@ $(function() {
 				$('.sf_box2').addClass('ani_on');
 			}
 		}
-		if(nh>$('.column').offset().top+200){
+		if($('.column').length&&nh>$('.column').offset().top+200){
 			$('.column .top_detail_title').addClass('show');
 			if(nh>$('.column').offset().top+400){
 				$('.column .top_detail_h2').addClass('ani_on');
