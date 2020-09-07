@@ -90,7 +90,7 @@ $(function() {
 		$('.column_link_item').css('left',-(w*num)+"px");
 	}
 
-	$('.menu_box').on('click',function(){
+	$('.menu_box,.menu_btn.sp').on('click',function(){
 		$(this).parent().find('.top_side_bar').fadeIn().css('display','flex');
 		$('body').addClass('open');
 	});
