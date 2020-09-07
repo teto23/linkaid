@@ -1,0 +1,391 @@
+.lang_item.scroll_lang {
+    display: block;
+}
+
+.aboutus_area {
+    margin-left: 100px;
+}
+
+.aboutus_title {
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #000000;
+    display: inline-block;
+    padding: 8px 10px;
+    margin-bottom: 16px;
+}
+
+.aboutus_h2 {
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 100px;
+}
+
+.aboutus_top_box {
+    padding-top: 108px;
+    margin-bottom: 284px;
+}
+
+.aboutus_top_detail {
+    width: 1024px;
+    margin: auto;
+}
+
+.aboutus_top_textarea {
+    text-align: center;
+}
+
+.aboutus_h3 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.aboutus_top_textarea .aboutus_h3 {
+    margin-bottom: 22px;
+}
+
+.aboutus_top_text {
+    font-size: 14px;
+    line-height: 2;
+}
+
+.aboutus_service_title {
+    text-align: center;
+    margin-bottom: 96px;
+}
+
+.aservice_title {
+    font-size: 16px;
+    color: #878787;
+    margin-bottom: 10px;
+}
+
+.aboutus_service {
+    background: #F1F1F1;
+    padding: 100px 0;
+}
+
+.aservice_item_box {
+    display: flex;
+    justify-content: space-between;
+    width: 1066px;
+    margin: auto;
+}
+
+.aservice_detail {
+    width: 288px;
+    background: #FFFFFF;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.as_detail_title {
+    font-size: 14px;
+    text-align: center;
+    color: #878787;
+    margin-bottom: 10px;
+}
+
+.aboutus_service_h4 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.as_detail_p {
+    font-size: 14px;
+    line-height: 2;
+}
+
+.plus_item {
+    position: relative;
+    width: 40px;
+}
+
+.plus_item:before,.plus_item:after {
+    position: absolute;
+    content: "";
+    border-bottom: 1px solid #878787;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+}
+
+.plus_item:after {
+    transform: rotate(90deg);
+}
+
+.aboutus_dt_box {
+    padding: 100px 0;
+    position: relative;
+}
+
+.aboutus_dt_box:before,.aboutus_dt_box:after {
+    content: "";
+    position: absolute;
+    width: 474px;
+    border-bottom: 1px solid #F1F1F1;
+    transform: rotate(45deg);
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: -1;
+}
+
+.aboutus_dt_box:after {
+    transform: rotate(135deg);
+}
+
+
+.aboutus_dt_box .aboutus_h3 {
+    text-align: center;
+    margin-bottom: 106px;
+    line-height: 2;
+}
+
+.aboutus_dt_detail {
+    display: flex;
+    justify-content: space-between;
+    width: 916px;
+    margin: auto;
+    margin-bottom: 90px;
+}
+
+.adt_link_box {
+    display: flex;
+    justify-content: space-between;
+    width: 670px;
+    margin: auto;
+}
+
+.ad_detail_box {
+    width: 336px;
+}
+
+.aboutus_dt_h4 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ad_detail_p {
+    font-size: 14px;
+    line-height: 2;
+}
+
+.aboutus_dt_link {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    width: 320px;
+    padding: 17px 0;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    transition: 0.4s;
+}
+
+.aboutus_dt_link:before {
+    content: "";
+    width: 0;
+    height: 100%;
+    position: absolute;
+    background: #000000;
+    top: 0;
+    left: -1px;
+    -webkit-transition: width .3s cubic-bezier(.25,.46,.45,.94);
+    transition: width .3s cubic-bezier(.25,.46,.45,.94);
+}
+
+.aboutus_dt_link span {
+    position: relative;
+    transition: 0.4s;
+    width: 264px;
+    display: block;
+    margin: auto;
+}
+
+.aboutus_dt_link span:before {
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid #000000;
+    width: 24px;
+    right: 0;
+    bottom: 4px;
+    transition: 0.4s;
+}
+
+.aboutus_dt_link span:after {
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid #000000;
+    width: 6px;
+    right: 0;
+    bottom: 6px;
+    transform: rotate(35deg);
+    transition: 0.4s;
+}
+
+.aboutus_dt_link:hover:before {
+    width: 100%;
+    left: 0;
+}
+
+.aboutus_dt_link:hover span {
+    color: #FFFFFF;
+}
+
+.aboutus_dt_link:hover span:before {
+    border-bottom: 1px solid#FFFFFF;
+}
+
+.aboutus_dt_link:hover span:after {
+    border-bottom: 1px solid#FFFFFF;
+}
+
+
+/* 小型デバイス(タブレット、1366px 以下) */
+@media (max-width: 1366px) {
+
+    .aboutus_area {
+        margin-left: 7.321vw;
+    }
+
+    .aboutus_title {
+        font-size: 1.025vw;
+        padding: 0.586vw 0.732vw;
+        margin-bottom: 1.171vw;
+    }
+
+    .aboutus_h2 {
+        font-size: 1.903vw;
+        margin-bottom: 7.321vw;
+    }
+
+    .aboutus_top_box {
+        padding-top: 7.906vw;
+        margin-bottom: 20.791vw;
+    }
+
+    .aboutus_top_detail {
+        width: 74.9vw;
+    }
+
+    .aboutus_h3 {
+        font-size: 1.903vw;
+    }
+
+    .aboutus_top_textarea .aboutus_h3 {
+        margin-bottom: 1.611vw;
+    }
+
+    .aboutus_top_text {
+        font-size: 1.025vw;
+    }
+
+    .aboutus_service_title {
+        margin-bottom: 7.028vw;
+    }
+
+    .aservice_title {
+        font-size: 1.171vw;
+        margin-bottom: 0.732vw;
+    }
+
+    .aboutus_service {
+        padding: 7.321vw 0;
+    }
+
+    .aservice_item_box {
+        width: 78.038vw;
+    }
+
+    .aservice_detail {
+        width: 21.083vw;
+        padding: 2.196vw;
+    }
+
+    .as_detail_title {
+        font-size: 1.025vw;
+        margin-bottom: 0.732vw;
+    }
+
+    .aboutus_service_h4 {
+        font-size: 1.464vw;
+        margin-bottom: 1.464vw;
+    }
+
+    .as_detail_p {
+        font-size: 1.025vw;
+    }
+
+    .plus_item {
+        width: 2.928vw;
+    }
+
+    .aboutus_dt_box {
+        padding: 7.321vw 0;
+    }
+
+    .aboutus_dt_box:before,.aboutus_dt_box:after {
+        width: 34.7vw;
+    }
+
+    .aboutus_dt_box .aboutus_h3 {
+        margin-bottom: 7.76vw;
+    }
+
+    .aboutus_dt_detail {
+        width: 67.057vw;
+        margin-bottom: 6.589vw;
+    }
+
+    .adt_link_box {
+        width: 49.048vw;
+    }
+
+    .ad_detail_box {
+        width: 24.597vw;
+    }
+
+    .aboutus_dt_h4 {
+        font-size: 1.757vw;
+        margin-bottom: 1.464vw;
+    }
+
+    .ad_detail_p {
+        font-size: 1.025vw;
+    }
+
+    .aboutus_dt_link {
+        font-size: 1.025vw;
+        width: 23.426vw;
+        padding: 1.245vw 0;
+    }
+
+    .aboutus_dt_link:before {
+        left: -0.073vw;
+    }
+
+    .aboutus_dt_link span {
+        width: 19.327vw;
+    }
+
+    .aboutus_dt_link span:before {
+        width: 1.757vw;
+        bottom: 0.293vw;
+    }
+
+    .aboutus_dt_link span:after {
+        width: 0.439vw;
+        bottom: 0.439vw;
+    }
+
+
+}

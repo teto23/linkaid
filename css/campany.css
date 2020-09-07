@@ -1,0 +1,277 @@
+.company_area {
+    margin-left: 100px;
+}
+
+.company_title {
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #000000;
+    display: inline-block;
+    padding: 8px 10px;
+    margin-bottom: 16px;
+}
+
+.company_h2 {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.company_main_detail {
+    width: 1024px;
+    margin: auto;
+}
+
+.company_detail_info {
+    width: 460px;
+    margin: auto;
+}
+
+.company_df_info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 52px;
+}
+
+.cm_df_info {
+    font-size: 14px;
+    line-height: 2;
+    width: 124px;
+    font-weight: bold;
+    border-bottom: 1px solid #000000;
+}
+
+.cm_df_dinfo {
+    font-size: 14px;
+    line-height: 2;
+    width: 240px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.lang_item.scroll_lang {
+    display: block;
+}
+
+.company_main_box {
+    padding-top: 108px;
+    margin-bottom: 190px;
+}
+
+.company_partner {
+    background: #F1F1F1;
+    padding: 50px 0 100px;
+}
+
+.company_partner_box {
+    display: flex;
+    width: 1024px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.company_h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 28px;
+}
+
+.cpd_remarks {
+    font-size: 12px;
+    color: #878787;
+}
+
+.company_p1_detail {
+    font-size: 14px;
+    line-height: 2;
+    margin-bottom: 30px;
+}
+
+.company_p1_dbox {
+    margin-left: 50px;
+}
+
+.comp_p2_mark {
+    display: flex;
+    align-items: center;
+}
+
+.comp_p2_mark_text {
+    line-height: 2;
+    font-size: 14px;
+}
+
+.comp_p2_img2 {
+    margin: 0 18px;
+    width: 140px;
+}
+
+.comp_p2_img1 {
+    width: 176px;
+}
+
+.company_aboutus {
+    background-image: url('../img/company_about.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.aboutus_textarea {
+    display: flex;
+    width: 830px;
+    margin: auto;
+}
+
+.aboutus_text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 1.8;
+}
+
+.aboutus_textarea .detail_link {
+    position: unset;
+    background: none;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.aboutus_textarea .detail_link span:before {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.aboutus_textarea .detail_link span:after {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.company_map {
+    display: flex;
+    align-items: center;
+}
+
+.company_map_textarea {
+    margin-left: 50px;
+}
+
+.company_map_text {
+    font-size: 14px;
+    line-height: 2;
+}
+
+.company_map_text:first-child {
+    margin-bottom: 50px;
+}
+
+.map_iframe {
+    width: 50%;
+}
+
+/* 小型デバイス(タブレット、1366px 以下) */
+@media (max-width: 1366px) {
+
+    .company_area {
+        margin-left: 7.321vw;
+    }
+
+    .company_title {
+        font-size: 1.025vw;
+        padding: 0.586vw 0.732vw;
+        margin-bottom: 1.171vw;
+    }
+
+    .company_h2 {
+        font-size: 1.903vw;
+    }
+
+    .company_main_detail {
+        width: 74.963vw;
+    }
+
+    .company_detail_info {
+        width: 33.675vw;
+    }
+
+    .company_df_info {
+        margin-bottom: 3.807vw;
+    }
+
+    .cm_df_info {
+        font-size: 1.025vw;
+        width: 9.078vw;
+    }
+
+    .cm_df_dinfo {
+        font-size: 1.025vw;
+        width: 17.57vw;
+    }
+
+    .company_main_box {
+        padding-top: 7.906vw;
+        margin-bottom: 13.909vw;
+    }
+
+    .company_partner {
+        padding: 3.66vw 0 7.321vw;
+    }
+
+    .company_partner_box {
+        width: 74.963vw;
+    }
+
+    .company_h3 {
+        font-size: 1.464vw;
+        margin-bottom: 2.05vw;
+    }
+
+    .cpd_remarks {
+        font-size: 0.878vw;
+    }
+
+    .company_p1_detail {
+        font-size: 1.025vw;
+        margin-bottom: 2.196vw;
+    }
+
+    .company_p1_dbox {
+        margin-left: 3.66vw;
+    }
+
+    .comp_p2_mark_text {
+        font-size: 1.025vw;
+    }
+
+    .comp_p2_img2 {
+        margin: 0 1.318vw;
+        width: 10.249vw;
+    }
+
+    .comp_p2_img1 {
+        width: 12.884vw;
+    }
+
+    .company_aboutus {
+        padding: 7.321vw 0;
+    }
+
+    .aboutus_textarea {
+        width: 60.761vw;
+    }
+
+    .aboutus_text {
+        font-size: 1.171vw;
+    }
+
+    .company_map_textarea {
+        margin-left: 3.66vw;
+    }
+
+    .company_map_text {
+        font-size: 1.025vw;
+    }
+
+    .company_map_text:first-child {
+        margin-bottom: 3.66vw;
+    }
+
+
+}
