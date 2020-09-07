@@ -1365,11 +1365,55 @@ position: absolute;
 }
 
 .copy {
-  font-size: 13px;
-  text-align: center;
-  color:#888;
-  letter-spacing: .1em;
+    font-size: 12px;
+    text-align: center;
+    color: #878787;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    cursor: default;
 }
+
+.footer_copy_box {
+  display: flex;
+  width: 1166px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.footer_sns_link {
+    display: block;
+    width: 40px;
+}
+
+.flink_sns_box {
+    display: flex;
+}
+
+.footer_sns_link:first-child {
+    margin-right: 10px;
+}
+
+.footer_info_dlink {
+    font-size: 12px;
+    text-decoration: none;
+    color: #878787;
+}
+
+.footer_info_span {
+    font-size: 12px;
+    margin: 0 16px;
+    color: #878787;
+}
+
+.footer_sns_link img {
+    width: 100%;
+}
+
 
 .service_fbox:hover .service_detail_link {
   padding-right: 50px;

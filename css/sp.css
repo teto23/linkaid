@@ -408,6 +408,27 @@
         padding-bottom: 4.392vw;
     }
 
+    .footer_copy_box {
+        width: 85.359vw;
+    }
+
+    .footer_sns_link {
+        width: 2.928vw;
+    }
+
+    .footer_sns_link:first-child {
+        margin-right: 0.732vw;
+    }
+
+    .footer_info_dlink {
+        font-size: 0.878vw;
+    }
+
+    .footer_info_span {
+        font-size: 0.878vw;
+        margin: 0 1.171vw;
+    }
+
 }
 
 
@@ -766,6 +787,42 @@
 
     .copy {
         font-size: 3.2vw;
+        position: unset;
+        width: auto;
+    }
+
+
+    .info_detail_link {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 8vw;
+    }
+
+    .footer_copy_box {
+        width: 89.6vw;
+        display: block;
+    }
+
+    .footer_sns_link {
+        width: 10.667vw;
+    }
+
+    .flink_sns_box {
+        justify-content: center;
+        margin-bottom: 8vw;
+    }
+
+    .footer_sns_link:first-child {
+        margin-right: 2.667vw;
+    }
+
+    .footer_info_dlink {
+        font-size: 3.2vw;
+    }
+
+    .footer_info_span {
+        font-size: 3.2vw;
+        margin: 0 4.8vw;
     }
 
     .ts_bar_item {
