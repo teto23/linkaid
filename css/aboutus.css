@@ -4,6 +4,7 @@
 
 .aboutus_area {
     margin-left: 100px;
+    position: relative;
 }
 
 .aboutus_title {
@@ -22,7 +23,7 @@
 }
 
 .aboutus_top_box {
-    padding-top: 108px;
+    padding-top: 160px;
     margin-bottom: 284px;
 }
 
@@ -269,7 +270,7 @@
     }
 
     .aboutus_top_box {
-        padding-top: 7.906vw;
+        padding-top: 11.713vw;
         margin-bottom: 20.791vw;
     }
 

@@ -204,6 +204,11 @@ $(function() {
 				$('.about_us .detail_center').find('.ani_off').addClass('ani_on');
 			}
 		}
+		if (nh>$('.service_detail').offset().top) {
+	      $('.lang_item.scroll_lang').fadeIn();
+	    } else {
+	      $('.lang_item.scroll_lang').fadeOut();
+	    }
 		if($('.service_detail').length&&nh>$('.service_detail').offset().top+200){
 			$('.service_detail .top_detail_title').addClass('show');
 			if(nh>$('.service_detail').offset().top+400){

@@ -549,6 +549,18 @@ a.link {
   overflow: hidden;
 }
 
+.top_link {
+    width: 128px;
+    position: absolute;
+    top: 24px;
+    left: 30px;
+    z-index: 1;
+}
+
+.top_link img {
+    width: 100%;
+}
+
 .top_detail_area {
   padding-left: 100px;
   margin: auto;
@@ -670,7 +682,7 @@ footer {
 }
 
 .menu_box {
-position: absolute;
+    position: absolute;
     top: 25px;
     left: 25px;
     width: 50px;
@@ -776,7 +788,6 @@ position: absolute;
   display: inline-block;
   position: relative;
   text-align: center;
-  width: 60px;
 }
 
 .lang_link:before {
@@ -844,7 +855,7 @@ position: absolute;
 
 .news_day {
     font-size: 14px;
-    color: #cacaca;
+    color: #CACACA;
     background: #222;
     padding: 15px 40px 15px 30px;
 }
@@ -994,7 +1005,7 @@ position: absolute;
   display: block;
   margin: auto;
   font-weight:bold;
-  
+
 }
 
 .detail_link span:before {

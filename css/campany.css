@@ -1,5 +1,6 @@
 .company_area {
     margin-left: 100px;
+    position: relative;
 }
 
 .company_title {
@@ -52,7 +53,7 @@
 }
 
 .company_main_box {
-    padding-top: 108px;
+    padding-top: 160px;
     margin-bottom: 190px;
 }
 
@@ -202,11 +203,11 @@
 
     .cm_df_dinfo {
         font-size: 1.025vw;
-        width: 17.57vw;
+        width: 22vw;
     }
 
     .company_main_box {
-        padding-top: 7.906vw;
+        padding-top: 11.713vw;
         margin-bottom: 13.909vw;
     }
 
