@@ -90,16 +90,6 @@ $(function() {
 		$('.column_link_item').css('left',-(w*num)+"px");
 	}
 
-	$('.menu_box,.menu_btn.sp').on('click',function(){
-		$(this).parent().find('.top_side_bar').fadeIn().css('display','flex');
-		$('body').addClass('open');
-	});
-
-	$('.ts_close_btn').on('click',function(){
-		$(this).parent('.top_side_bar').fadeOut();
-		$('body').removeClass('open');
-	});
-
 	//アイテム数で→ボタンを削除
 	if($('.column_link').length<5){
 		$('.right_cbtn').hide();
@@ -192,11 +182,6 @@ $(function() {
 	},2200);
 
 	function scroll_event(){
-		if($(window).scrollTop()>1000){
-			$('.menu_btn.sp').addClass('b');
-		}else{
-			$('.menu_btn.sp').removeClass('b');
-		}
 		var nh = $(window).scrollTop()+$(window).height();
 		if($('.about_us').length&&nh>$('.about_us').offset().top+200){
 			$('.about_us .top_detail_title').addClass('show');
@@ -229,15 +214,6 @@ $(function() {
 			if(nh>$('.column').offset().top+600){
 				$('.column_fbox').addClass('ani_on');
 				$('.pager_flex').addClass('ani_on');
-			}
-		}
-		if(w_flag=="pc"){
-			if(nh>$('.footer_fbox').offset().top+$('.footer_fbox').height()-100){
-				$('.footer_fbox').find('.ani_off').addClass('ani_on');
-			}
-		}else if(w_flag=="sp"){
-			if(nh>$('.footer_fbox').offset().top+100){
-				$('.footer_fbox').find('.ani_off').addClass('ani_on');
 			}
 		}
 	}
